@@ -1,0 +1,88 @@
+.form{
+    margin-top: 100px;
+}
+
+.wrapper{
+    width: 70%;
+    background: #fff;
+    color: black;
+    margin: 40px auto;
+    border-radius: 6px;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+}
+h1{
+    text-align: center;
+}
+input, textarea, select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 20px;
+    background: #eeeff1;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #4aaaa5;
+    box-shadow: 1px 1px 4px #4aaaa5;
+    
+} 
+
+input:disabled{
+    color: red;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.sign-up-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 0.5rem;
+    background: #444f75;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+}
+.change-btn{
+    width: 20%;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 0.5rem;
+    background: #444f75;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.back-btn{
+    width: 10%;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 0.5rem;
+    background: #444f75;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+}
+.back-btn label, .change-btn label{
+    cursor: pointer;
+}
+
+.sign-in-btn:hover, .sign-up-btn:hover, .back-btn:hover, .change-btn:hover{
+    background: 	#3b8570;
+}

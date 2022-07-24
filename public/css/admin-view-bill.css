@@ -1,0 +1,34 @@
+.back-btn{
+    width: 10%;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 0.5rem;
+    background: #444f75;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+}
+.back-btn:hover{
+    background: #3b8570;
+}
+
+.back-btn label{
+    cursor: pointer;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+th{
+    float: left;
+    margin-right: 100px;
+}
+
+    
+       
